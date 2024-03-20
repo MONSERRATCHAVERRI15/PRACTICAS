@@ -1,0 +1,106 @@
+
+body {
+    background-image: url('IMAGENES/img6.jpg');
+    font-family: arial;
+    color: white; 
+    background-size: cover;
+    text-align: center;
+    margin-top: 1cm;
+}
+.Header {
+    color: white;
+    text-align: center;
+    padding: 10px 20px; 
+    background-color: black;
+    margin-top: 1cm;
+    border-radius: 50px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white; 
+}
+
+.formulario {
+    max-width: 550px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent; 
+    position: relative; 
+    margin-bottom: 20px;
+}
+.formulario label{
+    margin-bottom: 40px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: calc(100% - 20px); 
+    padding: 5px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7); 
+    color: white; 
+}
+
+.formulario input[type="email"] {
+    margin-bottom: 60px; 
+}
+
+.formulario button[type="submit"] {
+    margin-top: 4cm; 
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: calc(100% - 40px); 
+    padding: 20px;
+    border: none;
+    border-radius: 20px; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    color: black; 
+    cursor: pointer;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.recordar-password {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.olvidar-password {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; 
+}
+
+.olvidar-password a {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+
+.olvidar-password a:hover {
+    text-decoration: underline;
+}
+.recordar-password,
+.olvidar-password {
+    display: inline-block; 
+    font-size: 0.8em; 
+    margin-top: 10px; 
+    width: 50%; display: inline-block; 
+    vertical-align: middle; 
+}
+.formulario button[type="submit"]:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+
+.recordar-password input[type="checkbox"] {
+    margin-right: 5px; 
+}
+
